@@ -1,7 +1,7 @@
 <%-- 
     Document   : achangepassword
     Created on : Apr 15, 2014, 5:41:37 PM
-    Author     : Fenil Admin
+    Author     : Brijesh Admin
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
