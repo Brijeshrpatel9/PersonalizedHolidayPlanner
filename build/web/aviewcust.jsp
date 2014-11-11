@@ -1,7 +1,7 @@
 <%-- 
     Document   : aviewcust
     Created on : May 7, 2014, 1:34:30 PM
-    Author     : Fenil Admin
+    Author     : Brijesh Admin
 --%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"  %>
