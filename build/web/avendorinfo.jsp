@@ -1,7 +1,7 @@
 <%-- 
     Document   : avendorinfo
     Created on : Apr 18, 2014, 8:04:12 PM
-    Author     : Fenil Admin
+    Author     : Brijesh Admin
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
