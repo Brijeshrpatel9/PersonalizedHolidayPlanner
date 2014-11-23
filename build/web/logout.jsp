@@ -1,7 +1,7 @@
 <%-- 
     Document   : logout
     Created on : Apr 2, 2014, 7:44:48 PM
-    Author     : Fenil Admin
+    Author     : Brijesh Admin
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
