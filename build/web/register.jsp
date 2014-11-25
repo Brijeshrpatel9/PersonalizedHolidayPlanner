@@ -1,7 +1,7 @@
 <%-- 
     Document   : register
     Created on : Apr 7, 2014, 2:41:48 PM
-    Author     : Fenil Admin
+    Author     : Brijesh Admin
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
