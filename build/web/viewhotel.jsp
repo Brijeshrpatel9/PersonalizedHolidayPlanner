@@ -1,7 +1,7 @@
 <%-- 
     Document   : viewhotel
     Created on : Apr 21, 2014, 10:22:00 AM
-    Author     : Fenil Admin
+    Author     : Brijesh Admin
 --%>
 
 
