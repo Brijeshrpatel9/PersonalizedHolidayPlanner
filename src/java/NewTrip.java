@@ -8,7 +8,7 @@ import java.util.Date;
 
 /**
  *
- * @author Fenil Admin
+ * @author Brijesh Admin
  */
 public class NewTrip {
     private  int noAdult =0, noChild=0,tripId=0;
