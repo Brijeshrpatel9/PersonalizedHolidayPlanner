@@ -22,7 +22,7 @@ import javax.servlet.http.HttpSession;
  *
  * @author Brijesh Admin
  */
- 
+
 public class SetProfileServlet extends HttpServlet {
 
     /**
