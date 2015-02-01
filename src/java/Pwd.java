@@ -20,5 +20,4 @@ public class Pwd {
             return randomString(CHARSET_aZ9, 8);
         }
     
-              
-}
+     }
