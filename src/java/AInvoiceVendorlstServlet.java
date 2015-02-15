@@ -19,7 +19,6 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Brijesh Admin
  */
- 
 public class AInvoiceVendorlstServlet extends HttpServlet {
 
     /**
