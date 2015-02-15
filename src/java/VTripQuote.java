@@ -5,7 +5,7 @@
 
 /**
  *
- * @author Fenil Admin
+ * @author Brijesh Admin
  */
 public class VTripQuote {
     private int id,tid,quotation;
