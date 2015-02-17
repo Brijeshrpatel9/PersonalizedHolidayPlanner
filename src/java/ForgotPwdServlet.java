@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
+ 
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
@@ -21,6 +21,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Brijesh Admin
  */
+ 
 public class ForgotPwdServlet extends HttpServlet {
 
     /**
