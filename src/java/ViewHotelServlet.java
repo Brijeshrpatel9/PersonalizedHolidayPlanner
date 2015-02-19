@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Fenil Admin
  */
+ 
 public class ViewHotelServlet extends HttpServlet {
 
     /**
