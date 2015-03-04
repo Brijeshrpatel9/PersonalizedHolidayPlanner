@@ -7,6 +7,7 @@
  *
  * @author Brijesh Admin
  */
+ 
 public class AVInvInfo {
     
     private String vid, vname, sts, datetime, sdate, edate;
