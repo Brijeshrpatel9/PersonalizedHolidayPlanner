@@ -7,6 +7,7 @@
  *
  * @author Brijesh Admin
  */
+ 
 public class Hotel {
     
     private String vid,name,type,street,city,pincode, phno, hemail, area,destination;
