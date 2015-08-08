@@ -36,6 +36,7 @@ public class ACustInfoServlet extends HttpServlet {
         RequestDispatcher rd;
         String query, status = "";
         int dp=0;
+        
         try {
 
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
