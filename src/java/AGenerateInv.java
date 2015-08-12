@@ -44,8 +44,7 @@ public class AGenerateInv extends HttpServlet {
         String sdate,edate,vid;
         int total_inq, total_bkamt,cp_inq,cp_bkamt,total;
         
-       
-        DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+           DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 	Date date = new Date();
         
         try {
