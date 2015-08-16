@@ -73,7 +73,6 @@ public class AInvVendorDetail extends HttpServlet {
             }
 
 
-
             /* TODO output your page here. You may use following sample code. */
             out.println("  <table class=\"style5\">\n"
                     + "                                            <tr>\n"
