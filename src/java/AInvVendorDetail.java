@@ -69,7 +69,7 @@ public class AInvVendorDetail extends HttpServlet {
                 {
                     bookedAmt = bookedAmt + rs2.getInt(1);
                 }
-                
+            
             }
 
 
