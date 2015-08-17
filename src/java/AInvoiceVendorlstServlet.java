@@ -61,7 +61,6 @@ public class AInvoiceVendorlstServlet extends HttpServlet {
             rd= request.getRequestDispatcher("ainvoicegenerate.jsp");
             rd.forward(request, response);
             
-            
         }
         catch(Exception e)
         {
