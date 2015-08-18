@@ -63,7 +63,7 @@ public class AInvoicesServlet extends HttpServlet {
                 }
                 
                 invlist.add(in);
-                
+            
             }
             request.setAttribute("InvList", invlist);
             rd = request.getRequestDispatcher("ainvoice.jsp");
