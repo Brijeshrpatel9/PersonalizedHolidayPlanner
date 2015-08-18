@@ -68,7 +68,6 @@ public class AInvoicesServlet extends HttpServlet {
             rd = request.getRequestDispatcher("ainvoice.jsp");
             rd.forward(request, response);
 
-
         } catch (Exception e) {
             System.out.println(e.toString());
         } finally {
