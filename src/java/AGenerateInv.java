@@ -70,7 +70,6 @@ public class AGenerateInv extends HttpServlet {
             request.setAttribute("Status", sts);
             rd = request.getRequestDispatcher("ainvoicegenerate.jsp");
             rd.forward(request, response);
-            
            
         } 
         catch(Exception e)
@@ -78,7 +77,7 @@ public class AGenerateInv extends HttpServlet {
             System.out.println(e.toString());
         }
         finally {            
-            
+		//DO NOTHING     
         }
     }
 
