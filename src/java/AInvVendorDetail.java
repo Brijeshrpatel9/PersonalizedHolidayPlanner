@@ -71,7 +71,6 @@ public class AInvVendorDetail extends HttpServlet {
             
             }
 
-
             /* TODO output your page here. You may use following sample code. */
             out.println("  <table class=\"style5\">\n"
                     + "                                            <tr>\n"
@@ -113,7 +112,6 @@ public class AInvVendorDetail extends HttpServlet {
                     + "                                              <td width=\"144\"><input type=\"text\" name=\"t\" id=\"t\" readonly=\"readonly\" onfocus=\"calc3()\"/></td>\n"
                     + "                                            </tr>\n"
                     + "                                        </table>");
-
 
         } finally {
             out.close();
