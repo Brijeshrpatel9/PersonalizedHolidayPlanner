@@ -68,7 +68,6 @@ public class ACustListServlet extends HttpServlet {
             rd= request.getRequestDispatcher("aviewcust.jsp");
             rd.forward(request, response);
             
-            
         }
         catch(Exception e)
         {
@@ -76,7 +75,7 @@ public class ACustListServlet extends HttpServlet {
         }
         
          finally {            
-         
+            //DO NOTHING
         }
     }
 
