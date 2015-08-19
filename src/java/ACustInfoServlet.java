@@ -63,8 +63,8 @@ public class ACustInfoServlet extends HttpServlet {
 
         } catch (Exception e) {
             System.out.print("Hi" + e.toString());
-        }finally {            
-   
+        } finally {            
+            //DO NOTHING
         }
     }
 
