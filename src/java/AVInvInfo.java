@@ -108,5 +108,4 @@ public class AVInvInfo {
     public void setTotal_bkamt(int total_bkamt) {
         this.total_bkamt = total_bkamt;
     }
-   
 }
