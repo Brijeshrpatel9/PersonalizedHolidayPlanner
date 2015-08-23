@@ -109,5 +109,4 @@ public class AVInvInfo {
         this.total_bkamt = total_bkamt;
     }
     
-    
 }
