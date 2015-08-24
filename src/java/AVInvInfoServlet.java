@@ -77,7 +77,6 @@ public class AVInvInfoServlet extends HttpServlet {
                 t1 = inf.getTotal_inq() * inf.getCp_inq();
                 t2 = (inf.getTotal_bkamt() * inf.getCp_bkamt()) / 100;
 
-
             }
             request.setAttribute("Info", inf);
             request.setAttribute("t1", t1);
