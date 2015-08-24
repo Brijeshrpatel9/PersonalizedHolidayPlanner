@@ -88,7 +88,7 @@ public class AVInvInfoServlet extends HttpServlet {
         } catch (Exception e) {
             System.out.print(e.toString());
         } finally {
-         // DO NOTHINg
+         // DO NOTHING
         }
     }
 
