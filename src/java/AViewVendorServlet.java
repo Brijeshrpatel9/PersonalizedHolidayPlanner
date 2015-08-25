@@ -77,7 +77,6 @@ public class AViewVendorServlet extends HttpServlet {
             System.out.println("Hi"+e.toString());
         }
         
-        
         finally {
         }
     }
