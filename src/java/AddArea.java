@@ -51,9 +51,8 @@ public class AddArea extends HttpServlet {
             Connection con = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=PHP;username=sa;password=icreate;");
             Statement st = con.createStatement();
             
-
-         int i= st.executeUpdate(query);
-         if(i == 1) {
+            int i= st.executeUpdate(query);
+            if(i == 1) {
                 sts = "Area added successfully.";
                 
             }
