@@ -46,7 +46,6 @@ public class AddArea extends HttpServlet {
       
              String email = (String) session.getAttribute("Username");
            
-            
             query="insert into Vendor_Area (Vendor_ID,Dest_ID,Area) values ('"+email+"','"+d+"','"+a+"')";
              Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             Connection con = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=PHP;username=sa;password=icreate;");
