@@ -56,9 +56,8 @@ public class AddArea extends HttpServlet {
                 sts = "Area added successfully.";
                 
             }
-            
             session.setAttribute("Status", sts);
-                rd = request.getRequestDispatcher("DestinationServlet1");
+            rd = request.getRequestDispatcher("DestinationServlet1");
             rd.forward(request, response);
             
         }
