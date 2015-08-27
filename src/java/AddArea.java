@@ -37,8 +37,8 @@ public class AddArea extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         try {
-          String sts="Failed";
-                      
+            
+            String sts="Failed";
             String query;
             RequestDispatcher rd;
             int d=Integer.parseInt(request.getParameter("state1"));
