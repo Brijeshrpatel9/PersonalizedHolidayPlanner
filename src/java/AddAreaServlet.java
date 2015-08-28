@@ -118,4 +118,3 @@ public class AddAreaServlet extends HttpServlet {
         return "Short description";
     }// </editor-fold>
 }
- 
