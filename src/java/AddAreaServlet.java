@@ -70,7 +70,6 @@ public class AddAreaServlet extends HttpServlet {
             }
             out.println("</table>");
             session.setAttribute("tripdetail", tripdetails);
-            
 
         } finally {
             out.close();
