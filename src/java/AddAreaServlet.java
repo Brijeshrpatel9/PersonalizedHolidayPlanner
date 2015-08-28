@@ -58,6 +58,7 @@ public class AddAreaServlet extends HttpServlet {
             out.println("<table width=100% border=1>");
             out.println("<tr><th>Area</th><th>Hotel Type</th><th>Start Date</th><th> End date</th><th>Remove</th>");
             while (it.hasNext()) {
+                
                 NewTripDetail ntd = (NewTripDetail) it.next();
                 out.println("<tr>");
                 out.println("<td align=center>" + ntd.getArea() + "</td>");
