@@ -63,24 +63,10 @@ public class AddAreaServlet2 extends HttpServlet {
             nt.setNoChild(Integer.parseInt(request.getParameter("nchild")));
             
             /* TODO output your page here. You may use following sample code. */
-          
-           /* out.println("<table width=100% border=1>");
-            out.println("<tr><th>Area</th><th>Hotel Type</th><th>Start Date</th><th> End date</th><th>Remove</th>");
-           while(it.hasNext())
-           {    NewTripDetail nt = it.next();
-              out.println("<tr>");
-               out.println("<td align=center>"+nt.getArea()+"</td>");
-               out.println("<td align=center>"+nt.getHtype()+"</td>");
-               out.println("<td align=center>"+nt.getAsdate()+"</td>");
-               out.println("<td align=center>"+nt.getAedate()+"</td>");
-               out.println("<td align=center><img src=\"images/delete.gif\" alt=\"delete item\" width=20px height=20px></td>");
-               out.println("</tr>");
-           }
-          out.println("</table>");*/
-          session.setAttribute("tripdetail", tripdetails);
-          session.setAttribute("trip",nt);
-          RequestDispatcher rd = request.getRequestDispatcher("trip.jsp");
-          rd.forward(request, response);
+            session.setAttribute("tripdetail", tripdetails);
+            session.setAttribute("trip",nt);
+            RequestDispatcher rd = request.getRequestDispatcher("trip.jsp");
+            rd.forward(request, response);
             
         } finally {            
             out.close();
