@@ -62,8 +62,6 @@ public class AddAreaServlet2 extends HttpServlet {
             nt.setNoAdult(Integer.parseInt(request.getParameter("nadult")));
             nt.setNoChild(Integer.parseInt(request.getParameter("nchild")));
             
-            
-            
             /* TODO output your page here. You may use following sample code. */
           
            /* out.println("<table width=100% border=1>");
