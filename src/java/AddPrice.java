@@ -55,7 +55,6 @@ public class AddPrice extends HttpServlet {
             Connection con = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=PHP;username=sa;password=icreate;");
             Statement st = con.createStatement();
 
-
             int i = st.executeUpdate(query);
             if (i == 1) {
                 sts = "Hotel Details added successfully.";
