@@ -72,13 +72,11 @@ public class AllInvoiceServlet extends HttpServlet {
 
                     inf.add(obj);
                 }
-
             }
             
             request.setAttribute("AllInvoice", inf);
             rd = request.getRequestDispatcher("invoice.jsp");
             rd.forward(request, response);
-
 
         } catch (Exception e) {
             System.out.println("Hi" + e.toString());
