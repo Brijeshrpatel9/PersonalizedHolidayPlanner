@@ -81,6 +81,7 @@ public class AllInvoiceServlet extends HttpServlet {
         } catch (Exception e) {
             System.out.println("Hi" + e.toString());
         } finally {
+            //DO Nothing
         }
     }
 
