@@ -42,12 +42,10 @@ public class CPayReturnServlet extends HttpServlet {
         HttpSession session = request.getSession();
         int inv = 0;
 
-        
         inv = (Integer) session.getAttribute("invid");
 
         DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
         Date date = new Date();
-
 
         try {
             /* String s = request.getParameter("txn_id");
