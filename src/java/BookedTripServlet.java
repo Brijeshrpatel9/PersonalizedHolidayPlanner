@@ -69,7 +69,7 @@ public class BookedTripServlet extends HttpServlet {
         } catch (Exception e) {
             System.out.println(e.toString());
         } finally {
-        
+        //DO NOTHING
             
         }
     }
