@@ -50,8 +50,8 @@ public class BookedTripServlet extends HttpServlet {
             booktrip = new ArrayList<NewTrip>();
 
             while (rs.next()) {
+                
                 NewTrip s = new NewTrip();
-
                 s.setTripId(rs.getInt(1));
                 s.setTripname(rs.getString(2));
                 s.setFrom(rs.getString(3));
