@@ -86,8 +86,8 @@ public class CPayServlet extends HttpServlet {
             RequestDispatcher rd = request.getRequestDispatcher("cpayconfirm.jsp");
             rd.forward(request, response);
 
-
         } finally {
+
         }
     }
 
