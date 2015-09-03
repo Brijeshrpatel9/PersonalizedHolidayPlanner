@@ -87,7 +87,7 @@ public class CPayServlet extends HttpServlet {
             rd.forward(request, response);
 
         } finally {
-
+            // DO NOTHING
         }
     }
 
