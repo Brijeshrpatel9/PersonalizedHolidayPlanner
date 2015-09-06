@@ -77,7 +77,6 @@ public class ChangePasswordServlet extends HttpServlet {
 
                 } else {
                     
-                    
                     role = (String) session.getAttribute("role");
                     if (role.equals("customer")) {
                         page = "cprofile.jsp";
