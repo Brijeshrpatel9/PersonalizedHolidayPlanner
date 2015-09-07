@@ -34,7 +34,6 @@ public class ContactMailServlet extends HttpServlet {
         String sts="";
         RequestDispatcher rd;
         
-        
         try {
             
         String[] recipients = new String[]{};  
