@@ -9,9 +9,6 @@
  */
 public class DBPara {
     
-    /**
-     *
-     */
     public static String dbname="PHP",uname="sa",pwd="icreate";
     
 }
