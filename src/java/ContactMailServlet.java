@@ -49,8 +49,7 @@ public class ContactMailServlet extends HttpServlet {
         {
            sts = "Unable to send. Try again later.";
         }
-        
-        
+    
         }
         catch(Exception e)
         {
