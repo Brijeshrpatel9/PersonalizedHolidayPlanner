@@ -35,5 +35,4 @@ public class DestinationList {
         this.area = area;
     }
     
-    
 }
