@@ -34,5 +34,4 @@ public class DestinationList {
     public void setArea(String area) {
         this.area = area;
     }
-    
 }
