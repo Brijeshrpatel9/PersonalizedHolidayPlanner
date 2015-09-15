@@ -104,5 +104,5 @@ public class DestinationServlet1 extends HttpServlet {
     @Override
     public String getServletInfo() {
         return "Short description";
-    }// </editor-fold>
+    }
 }
