@@ -59,6 +59,7 @@ public class DestinationServlet1 extends HttpServlet {
            
             RequestDispatcher rd = request.getRequestDispatcher("hotel.jsp");
             rd.forward(request, response);
+            
         } catch (Exception e) {
             System.out.println(e.toString());
         } finally {
