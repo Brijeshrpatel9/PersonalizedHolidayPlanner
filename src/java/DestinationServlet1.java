@@ -47,8 +47,8 @@ public class DestinationServlet1 extends HttpServlet {
             ResultSet rs = st.executeQuery(str);
             destination = new ArrayList<DestinationList>();
             while (rs.next()) {
-                DestinationList d = new DestinationList();
                 
+                DestinationList d = new DestinationList();
                 d.setDestId(rs.getInt(1));
                 d.setDestination(rs.getString(2));
                 destination.add(d);
